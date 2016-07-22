@@ -23,7 +23,6 @@
 
 		<security:logout invalidate-session="true"
 			logout-success-url="/auth/login" logout-url="/auth/logout" />
-
 	</security:http>
 
 	<!-- 指定一个自定义的authentication-manager :customUserDetailsService -->
